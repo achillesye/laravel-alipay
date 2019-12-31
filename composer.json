@@ -1,0 +1,25 @@
+{
+    "name": "achilles/laravel-alipay",
+    "description": "支付宝SDK for Laravel/Lumen",
+    "keywords": ["alipay", "laravel", "lumen", "sdk"],
+    "require-dev": {
+    },
+    "authors": [
+        {
+            "name": "eric",
+            "email": "eric@winhu.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "ext-openssl": "*",
+        "ext-simplexml":"*",
+        "ext-libxml": "*",
+        "ext-json": "*",
+        "ext-http": "*"
+    },
+    "autoload": {
+        "psr-4": {
+        }
+    }
+}
